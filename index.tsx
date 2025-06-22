@@ -164,7 +164,6 @@ export class GdmLiveAudio extends LitElement {
             voiceConfig: {prebuiltVoiceConfig: {voiceName: 'Orus'}},
             // languageCode: 'en-GB'
           },
-          systemInstruction: "You are an expert music teacher. Provide detailed, step-by-step explanations for music theory concepts. Use simple language and examples to help beginners understand. If a user asks about a specific topic, explain it thoroughly and provide practical exercises or examples.",
         },
       });
     } catch (e) {
